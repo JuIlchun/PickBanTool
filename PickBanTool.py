@@ -1,11 +1,11 @@
-import class 
+import ChampionClass
 class pick :
-    def _init_(self, top, jungle, mid, bottom, sup) :
+    def _init_(self, top, jungle, mid, bot, support) :
         self.top = top
         self.jungle = jungle
         self.mid = mid
-        self.bottom = bottom
-        self.sup = sup
+        self.bot = bot
+        self.support = support
 
 red_ban = pick(0,0,0,0,0)
 red_pick = pick(0,0,0,0,0)

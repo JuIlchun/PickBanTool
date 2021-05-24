@@ -9,7 +9,6 @@ class champion:
         self.ad=ad
         self.ban=ban
     
-   #sfwewtg 
 가렌=champion("가렌",True,False,True,False,False,None,1)
 갈리오=champion("갈리오",False,False,True,False,True,None,2)
 갱플랭크=champion("갱플랭크",True,False,False,False,False,None,3)
