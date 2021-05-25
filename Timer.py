@@ -1,9 +1,6 @@
-import threading
+import time
 
 
-def starttimer(bool):
-    timer=threading.Timer(27,starttimer,args=(False))
-    timer.start()
-
-    if bool == True:
-        timer.cancel()
+def starttimer():
+    time.sleep(27)
+    return True

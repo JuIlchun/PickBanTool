@@ -168,14 +168,13 @@ for x in champion_split:
     else:
         champion_cap.append(x.capitalize())
 
+#Exception
 champion_cap[champion_cap.index("JarvanIv")] = "JarvanIV"
 champion_cap[champion_cap.index("Kog'maw")] = "KogMaw"
 champion_cap[champion_cap.index("Rek'sai")] = "RekSai"
 champion_cap[champion_cap.index("Wukong")] = "MonkeyKing"
 
 champion = [''.join(filter(str.isalnum, x)) for x in champion_cap]
-
-print(champion)
 
 url = 'https://ddragon.leagueoflegends.com/cdn/11.10.1/img/champion/'
 
